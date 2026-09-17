@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Anti-Screenshot & Print Protection */
+@media print {
+  html, body, #root {
+    display: none !important;
+    visibility: hidden !important;
+    background: #000000 !important;
+  }
+}
+
+/* Protected VIP Content Styling */
+.protect-content, img, video, canvas {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-user-drag: none !important;
+  -webkit-touch-callout: none !important;
+  pointer-events: auto;
+}
+
+/* Watermark & Anti-Capture styling */
+.screenshot-guard-active {
+  filter: blur(20px) !important;
+  transition: filter 0.2s ease-in-out;
+}

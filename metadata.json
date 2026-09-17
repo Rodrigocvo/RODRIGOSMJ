@@ -1,0 +1,6 @@
+{
+  "name": "Ruivinha VIP",
+  "description": "Plataforma exclusiva estilo Privacy com login, gateway Efí Bank (Gerencianet) PIX oficial, feed em tempo real, proteção anti-print/screenshot, lives com filtros e painel administrativo.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
